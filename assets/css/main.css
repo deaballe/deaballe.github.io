@@ -56,6 +56,13 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+	
+/*Extra*/
+
+	container {
+        justify-content: center;
+		align-items: center
+     }
 
 /* Grid */
 
