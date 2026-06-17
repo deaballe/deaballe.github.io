@@ -268,15 +268,9 @@ a:focus-visible {
   text-underline-offset: 3px;
 }
 
-/* ── Built with AI placeholder ── */
-.ai-placeholder {
-  text-align: center;
-  font-style: italic;
-  font-size: 1.0625rem;
-  opacity: 0.75;
-  max-width: 36ch;
-  margin-inline: auto;
-  padding: 1rem 0;
+.cards--single {
+  grid-template-columns: 1fr;
+  max-width: 42rem;
 }
 
 /* ── Insight ── */
