@@ -84,12 +84,16 @@ a:focus-visible {
 }
 
 .section-divider {
-  height: 16px;
-  background-color: var(--cream);
-  background-image: url("../assets/guarda-pampa.svg");
-  background-repeat: repeat-x;
-  background-size: auto 100%;
-  background-position: center;
+  height: 9px;
+  background: linear-gradient(
+    to bottom,
+    var(--green) 0,
+    var(--green) 33.333%,
+    var(--cream) 33.333%,
+    var(--cream) 66.666%,
+    var(--green) 66.666%,
+    var(--green) 100%
+  );
 }
 
 /* ── Hero ── */
