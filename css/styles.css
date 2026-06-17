@@ -84,18 +84,18 @@ a:focus-visible {
 }
 
 .section-divider {
-  height: 6px;
-  background: var(--green-dark)
-    url("../assets/pattern.svg") repeat;
-  background-size: 40px 40px;
-  opacity: 0.9;
+  height: clamp(52px, 9vw, 72px);
+  background-color: var(--green-dark);
+  background-image: url("../assets/guarda-pampa.svg");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: center;
 }
 
 /* ── Hero ── */
 .hero {
   background: linear-gradient(160deg, var(--green-dark) 0%, var(--green) 55%, #3A5C4E 100%);
   color: var(--cream);
-  min-height: 100svh;
   display: flex;
   flex-direction: column;
 }
@@ -140,12 +140,11 @@ a:focus-visible {
 }
 
 .hero__body {
-  flex: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: clamp(2rem, 5vw, 4rem);
-  padding-bottom: clamp(3rem, 8vw, 5rem);
+  padding-bottom: clamp(2rem, 5vw, 3rem);
 }
 
 .hero__photo-wrap {
@@ -184,6 +183,44 @@ a:focus-visible {
   font-size: clamp(1rem, 2vw, 1.125rem);
   opacity: 0.92;
   max-width: 42ch;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  margin-top: 1.75rem;
+}
+
+.hero__btn {
+  display: inline-block;
+  padding: 0.625rem 1.125rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.02em;
+  transition: background 0.2s, border-color 0.2s, transform 0.15s;
+}
+
+.hero__btn--primary {
+  background: var(--red);
+  color: var(--cream);
+}
+
+.hero__btn--primary:hover {
+  background: #a81830;
+  transform: translateY(-1px);
+}
+
+.hero__btn--ghost {
+  border: 1.5px solid rgba(245, 240, 232, 0.45);
+  color: var(--cream);
+}
+
+.hero__btn--ghost:hover {
+  border-color: var(--cream);
+  background: rgba(245, 240, 232, 0.1);
+  transform: translateY(-1px);
 }
 
 /* ── Section headings ── */
@@ -263,15 +300,27 @@ a:focus-visible {
   text-underline-offset: 3px;
 }
 
-/* ── AI placeholder ── */
-.ai-placeholder {
+/* ── Built with AI ── */
+.ai-content {
   text-align: center;
-  font-style: italic;
   font-size: 1.0625rem;
-  opacity: 0.75;
-  max-width: 36ch;
+  opacity: 0.92;
+  max-width: 42ch;
   margin-inline: auto;
-  padding: 1rem 0;
+  padding: 0.5rem 0 1rem;
+}
+
+.ai-link {
+  display: block;
+  text-align: center;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--red);
+}
+
+.ai-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* ── Insight ── */
@@ -343,6 +392,8 @@ a:focus-visible {
   .hero__photo-wrap { order: -1; }
 
   .hero__bio { margin-inline: auto; }
+
+  .hero__actions { justify-content: center; }
 
   .hero__top {
     flex-direction: column;

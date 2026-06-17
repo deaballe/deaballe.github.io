@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="64" viewBox="0 0 168 64" shape-rendering="crispEdges">
+  <!-- Guarda Pampa tile — green #1E3329 + cream #F5F0E8 -->
+  <rect width="168" height="64" fill="#1E3329"/>
+
+  <!-- Border lines -->
+  <rect width="168" height="4" fill="#F5F0E8"/>
+  <rect y="60" width="168" height="4" fill="#F5F0E8"/>
+
+  <g fill="#F5F0E8">
+    <!-- ── Left half-module (seamless at x=0) ── -->
+    <rect x="0"  y="16" width="8"  height="4"/>
+    <rect x="0"  y="20" width="12" height="4"/>
+    <rect x="0"  y="24" width="16" height="4"/>
+    <rect x="0"  y="28" width="20" height="4"/>
+    <rect x="0"  y="32" width="24" height="4"/>
+    <rect x="0"  y="36" width="20" height="4"/>
+    <rect x="0"  y="40" width="16" height="4"/>
+    <rect x="0"  y="44" width="12" height="4"/>
+    <rect x="0"  y="48" width="8"  height="4"/>
+    <rect x="8"  y="12" width="4"  height="4"/>
+    <rect x="12" y="12" width="4"  height="4"/>
+    <rect x="8"  y="52" width="4"  height="4"/>
+    <rect x="12" y="52" width="4"  height="4"/>
+
+    <!-- ── Center diamond (stepped) ── -->
+    <rect x="72" y="8"  width="24" height="4"/>
+    <rect x="68" y="12" width="32" height="4"/>
+    <rect x="64" y="16" width="40" height="4"/>
+    <rect x="60" y="20" width="48" height="4"/>
+    <rect x="56" y="24" width="56" height="4"/>
+    <rect x="52" y="28" width="64" height="4"/>
+    <rect x="56" y="32" width="56" height="4"/>
+    <rect x="60" y="36" width="48" height="4"/>
+    <rect x="64" y="40" width="40" height="4"/>
+    <rect x="68" y="44" width="32" height="4"/>
+    <rect x="72" y="48" width="24" height="4"/>
+
+    <!-- Side steps -->
+    <rect x="48" y="28" width="4" height="4"/>
+    <rect x="48" y="32" width="4" height="4"/>
+    <rect x="116" y="28" width="4" height="4"/>
+    <rect x="116" y="32" width="4" height="4"/>
+
+    <!-- Inner diamond frame -->
+    <rect x="68" y="20" width="32" height="4"/>
+    <rect x="64" y="24" width="8"  height="4"/>
+    <rect x="96" y="24" width="8"  height="4"/>
+    <rect x="64" y="36" width="8"  height="4"/>
+    <rect x="96" y="36" width="8"  height="4"/>
+    <rect x="68" y="40" width="32" height="4"/>
+    <rect x="60" y="28" width="4"  height="8"/>
+    <rect x="104" y="28" width="4"  height="8"/>
+
+    <!-- Cross + center square -->
+    <rect x="76" y="24" width="16" height="4"/>
+    <rect x="76" y="36" width="16" height="4"/>
+    <rect x="68" y="28" width="4"  height="8"/>
+    <rect x="96" y="28" width="4"  height="8"/>
+    <rect x="76" y="28" width="16" height="8"/>
+    <rect x="80" y="32" width="8"  height="4" fill="#1E3329"/>
+
+    <!-- ── Right half-module (seamless at x=168) ── -->
+    <rect x="160" y="16" width="8"  height="4"/>
+    <rect x="156" y="20" width="12" height="4"/>
+    <rect x="152" y="24" width="16" height="4"/>
+    <rect x="148" y="28" width="20" height="4"/>
+    <rect x="144" y="32" width="24" height="4"/>
+    <rect x="148" y="36" width="20" height="4"/>
+    <rect x="152" y="40" width="16" height="4"/>
+    <rect x="156" y="44" width="12" height="4"/>
+    <rect x="160" y="48" width="8"  height="4"/>
+    <rect x="152" y="12" width="4"  height="4"/>
+    <rect x="156" y="12" width="4"  height="4"/>
+    <rect x="152" y="52" width="4"  height="4"/>
+    <rect x="156" y="52" width="4"  height="4"/>
+  </g>
+</svg>
