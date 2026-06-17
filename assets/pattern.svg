@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <rect width="80" height="80" fill="none"/>
+  <g fill="#F5F0E8" fill-opacity="1">
+    <!-- Stepped diamond with cross motif -->
+    <path d="M40 8 L48 16 L48 24 L56 24 L56 32 L48 32 L48 40 L40 48 L32 40 L32 32 L24 32 L24 24 L32 24 L32 16 Z"/>
+    <rect x="36" y="28" width="8" height="8"/>
+    <rect x="38" y="20" width="4" height="4"/>
+    <rect x="38" y="44" width="4" height="4"/>
+    <rect x="26" y="32" width="4" height="4"/>
+    <rect x="50" y="32" width="4" height="4"/>
+    <!-- Corner accents -->
+    <rect x="4" y="4" width="8" height="8"/>
+    <rect x="68" y="4" width="8" height="8"/>
+    <rect x="4" y="68" width="8" height="8"/>
+    <rect x="68" y="68" width="8" height="8"/>
+  </g>
+</svg>
